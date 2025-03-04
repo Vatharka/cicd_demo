@@ -13,4 +13,3 @@ def read_user(user_id: int):
 @app.post("/users/")
 def create_user(user: dict):
     return {"message": "User created", "user": user}
-~                                                   
